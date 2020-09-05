@@ -1,3 +1,8 @@
+span, p {
+    background-color:#9c61d3;
+    
+}
+
 .block {
     display : block;
     width: 100px;
@@ -13,5 +18,5 @@
 .inline-block {
     display : inline-block;
     width: 100px;
-    height: 100px;
+    height: 40px;
 }

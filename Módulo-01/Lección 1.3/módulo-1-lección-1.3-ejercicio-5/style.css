@@ -1,0 +1,14 @@
+.caja {
+width: 100px;
+height: 100px;
+padding: 5px;
+border: 50px red;
+box-sizing: border-box;
+margin-top: auto;
+margin-bottom: auto;
+
+}
+
+.perrete {
+    height: 100%;
+}

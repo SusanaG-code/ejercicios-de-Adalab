@@ -1,0 +1,8 @@
+.kitten {
+    background-color: red;
+    border: solid black;
+    display: inline;
+    height: 100px;
+    width: 100px;
+    display: block;
+  }

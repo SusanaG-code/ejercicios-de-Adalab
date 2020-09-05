@@ -4,7 +4,7 @@ span, p {
 }
 
 .block {
-    display : block;
+    display :block;
     width: 100px;
     height: 100px
 }
@@ -20,3 +20,4 @@ span, p {
     width: 100px;
     height: 40px;
 }
+    

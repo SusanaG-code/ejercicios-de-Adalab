@@ -1,8 +1,25 @@
 .kitten {
-    background-color: red;
-    border: solid black;
-    display: inline;
-    height: 100px;
-    width: 100px;
-    display: block;
-  }
+  display: inline-block;
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  border: 1px black solid;
+}
+
+.box {
+  background: pink;
+  width: 95%;
+  height: 200px;
+  border: 5px solid red;
+  padding: 10px;
+}
+
+.content {
+  border: 5px solid blue;
+  height: 100%;
+  background: green;
+  color: white;
+}
+.content-box {
+  box-sizing: content-box;
+}

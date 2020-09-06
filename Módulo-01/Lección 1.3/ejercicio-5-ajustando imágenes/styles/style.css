@@ -1,9 +1,8 @@
 .caja {
 width: 100px;
 height: 100px;
-padding: 5px;
-border: 50px red;
-box-sizing: border-box;
+margin-top: auto;
+margin-bottom: auto;
 margin-top: auto;
 margin-bottom: auto;
 
@@ -12,4 +11,9 @@ margin-bottom: auto;
 .perrete {
     height: 100px;
     width: 100px;
+    border: 5px solid red;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: auto;
+    margin-bottom: auto;
 }

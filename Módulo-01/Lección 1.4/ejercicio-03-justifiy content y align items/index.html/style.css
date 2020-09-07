@@ -1,0 +1,26 @@
+.container {
+    height: 100px;
+    color: blue;
+    display: flex;
+    border: solid;
+    box-sizing: border-box;
+    background: yellow;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.item {
+
+    background-color: grey;
+    border: black solid;
+    box-sizing: border-box;
+}
+
+.item-1 {
+    border: solid;
+    width: auto;
+    color: red;
+    box-sizing: border-box;
+}

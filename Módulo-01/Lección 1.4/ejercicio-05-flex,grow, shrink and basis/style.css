@@ -1,0 +1,30 @@
+.container {
+    
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    border: solid;
+    box-sizing: border-box;
+    
+}
+
+header {
+    background-color: grey;
+   
+  
+}
+ 
+.contain-main {
+    border: solid blue;
+    box-sizing: border-box;
+    min-height: 45vh;
+    
+}
+
+.contain-footer {
+    border:solid red;
+    box-sizing: border-box;
+    min-height: 100px;  
+}

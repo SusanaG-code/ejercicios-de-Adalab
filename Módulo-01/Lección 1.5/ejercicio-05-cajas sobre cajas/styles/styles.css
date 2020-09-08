@@ -1,4 +1,6 @@
-.box1 {
+/* Usando posicionamiento absoluto establecemos para el div2 y el div3 el mismo origen que para el div1, de modo que las cajas se superpongan y el efecto generado sea ver cuadrado azul sobre uno verde que a su vez está sobre uno amarillo. */
+
+/* .box1 {
     width: 100px;
     height: 100px;
     box-sizing: border-box;
@@ -26,4 +28,31 @@ background-color: blue;
 box-sizing: border-box;
 position: absolute;
 border: 20px;
+} */
+
+.box1 {
+    position: absolute;
+  height: 500px;
+  width: 500px;
+  background-color: yellow;
+  padding: 40px;
+  border: 2px solid black;
+}
+
+.box2 {
+ position: absolute;
+  height: 300px;
+  width: 300px;
+  background-color: green;
+  padding: 75px;
+  transform: translate(100px, 100px);
+}
+
+.box3 {
+position: absolute;
+height: 150px;
+width: 150px;
+background-color: blue;
+border: 20px solid red;
+transform: translate(175px, 175px);
 }

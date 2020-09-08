@@ -1,0 +1,26 @@
+
+/* Hacer que la cabecera no tape el contenedor principal cuando no hemos hecho scroll, sin utilizar margin ni padding (PISTA: posiciona el contenedor principal). */
+
+.header {
+  background-color: purple;
+  position: relative;
+}
+
+.mainbox {
+  position: absolute;
+  top: 100px;
+}
+
+
+/* Esto se usa para hacer scroll y que la cabcera tape el contenido */
+/*  
+.header {
+  background-color: purple;
+  position: fixed;
+}
+
+.mainbox {
+  position: absolute;
+  top: 100px;
+}
+*/

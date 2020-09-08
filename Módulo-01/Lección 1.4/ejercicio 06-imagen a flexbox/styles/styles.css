@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border: solid black 2px;
+    box-sizing: border-box;
+}
+
+.header {
+    border: solid green;
+    box-sizing: border-box;
+}
+
+.footer {
+    border: solid purple;
+    box-sizing: border-box;
+
+}
+
+.article {
+    border: solid blue;
+    box-sizing: border-box;
+
+}
+
+.aside{
+    border: solid yellow;
+    box-sizing: border-box;
+
+}
+

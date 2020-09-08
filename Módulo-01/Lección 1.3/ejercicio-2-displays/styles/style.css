@@ -13,6 +13,7 @@ span, p {
     display : inline;
     width: 100px;
     height: 100px;
+    padding: 10px;
 }
 
 .inline-block {

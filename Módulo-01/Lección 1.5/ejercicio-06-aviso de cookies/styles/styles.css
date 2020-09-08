@@ -1,0 +1,13 @@
+.cookies {
+    background-color: yellow;
+    height: 100px;
+    border: solid;
+    box-sizing: border-box;
+    position: fixed;
+    top: 650px;
+    left:70px;
+}
+
+.mainbox {
+    position: absolute;
+}

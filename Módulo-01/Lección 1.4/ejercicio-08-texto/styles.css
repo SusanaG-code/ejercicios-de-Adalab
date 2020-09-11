@@ -1,0 +1,72 @@
+.header {
+    border:solid purple;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.nav-menu{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+border:solid yellow;
+}
+
+
+.list{
+    list-style: none;
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: center;
+margin-right: 100px;
+}
+
+.item1{
+border: solid green;
+}
+
+.item2{
+    border: solid green;
+
+}
+
+.item3 {
+    border: solid green;
+
+}
+.main-title {
+    border:solid red;
+    max-width: 600px;
+    text-align: center;
+}
+.text{
+    max-width: 600px;
+    border:solid blue;
+    
+}
+
+.autor-fecha {
+    border: solid red;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:baseline;
+    width: 600px;
+}
+
+.autor {
+  margin-left: 20px;  
+}
+
+.fecha {
+    margin-right:20px;
+}
+
+
+
+    

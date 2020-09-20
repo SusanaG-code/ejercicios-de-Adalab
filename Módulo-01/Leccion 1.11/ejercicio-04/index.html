@@ -13,33 +13,40 @@
     </header>
 <main>
 <section>
-    <form action="/signup" method="post">
+    <form action="https://www.google.com/" method="post">
         <fieldset>
         <legend>Datos personales:</legend>
-        <input  type="text" id="First name" name="First name" placeholder="Name" required />
+        <label for="First-name"></label>
+        <input  type="text" id="First-name" name="First name" placeholder="Name" required pattern="^[a-zA-Z]{3}$"/>
+        
         
     
-
-        <input  type="text" id="Last name" name="Surname" placeholder="Surname" required />
+        <label for="Last-name"></label>
+        <input  type="text" id="Last-name" name="Surname" placeholder="Surname" required />
+        <!-- Campo obligatorio -->
 <div class="email-box">
-        <input  type="email" type="tel" id="email o mobile number" name="Email or mobile number" placeholder="Email or mobile number" required />
+    <label for="email-mobile-number"></label>
+        <input type="text" id="email-mobile-number" name="Email or mobile number" placeholder="Email or mobile number" required/>
         </div>
+        <!-- Campo obligatorio -->
     <div class="re-enter-box">
-        <input  type="email" type="tel" id="Re-enter email o mobile number" name="Email or mobile number" placeholder="Re-enter email or mobile number" required />
+        <label for="Re-enter-email"></label>
+        <input type="email" type="text" id="Re-enter-email" name="Email or mobile number" placeholder="Re-enter email or mobile number" required />
     </div>
 <div class="password-box">
+    <label for="password"></label>
         <input  type="password" id="Password" name="Password" placeholder="Password" required />
     </div>
-
-        <input  type="password" id="Password" name="New Password" placeholder="New Password" required />
+    <label for="new-password"></label>
+        <input  type="password" id="new-password" name="New Password" placeholder="New Password" required />
 
     </fieldset>
             
         <h2>Birthday</h2>
         
-        
-        <select name="Day">
-            <option value="Day">Day</option>
+        <label for="day"></label>
+        <select name="Day" id="day">
+            <option value="Day" disabled selected>Day</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -49,7 +56,8 @@
             <option value="7">7</option>
         </select>
 
-        <select name="Month">
+        <label for="month"></label>
+        <select name="Month" id="month">
             <option value="Month">Month</option>
             <option value="January">January</option>
             <option value="February">February</option>
@@ -60,7 +68,8 @@
             <option value="July">July</option>
         </select>
 
-        <select name="Year">
+        <label for="year"></label>
+        <select name="Year" id="year">
             <option value="Year">Year</option>
             <option value="1920">1920</option>
             <option value="1930">1930</option>
@@ -86,21 +95,27 @@
 cm
 </label>
 
-<div class="Comment-box"
+<div class="Comment-box">
 <label for="comments">Comentarios:</label>
-
-<textarea id="comments" name="comments" rows="5" cols="5"></textarea>
+<textarea id="comments" name="comments" rows="8" cols="50"></textarea>
 </div>
 <input type="reset" value="Restaurar valores por defecto" />
-</form>
 
-
-</form>
-<small>By clicking Create an account you agree to our <a href="www.google.es">Terms</a> and that you have read our Data Policy, including  our cookie use</small>
-<div class="button">
-<button type="submit" onclick= "alert('Create your account and sell your soul!')">Create an account</button>
+<div>
+<input type="checkbox" id="conditions" name="conditions" >
+<label for="conditions">Accept conditions</label>
 
 </div>
+
+
+<small>By clicking Create an account you agree to our <a href="www.google.es">Terms</a> and that you have read our Data Policy, including  our cookie use</small>
+<div>
+<input type="submit" value="Create an account" />
+</div>
+
+<input type="hidden" id="navegador" name="navegador" value="chrome">
+
+</form>
 </section>
 </main>
 

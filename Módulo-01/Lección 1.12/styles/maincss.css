@@ -1,0 +1,24 @@
+.container-fluid{
+    background-color:violet;
+    border:black 1px;   
+}
+
+.header.col-12 {
+    background-color:pink;
+    text-align:center;
+    box-sizing: border-box;
+    border:solid 1px blue;
+    
+}
+
+.menu.col-8 {
+    background-color:yellow;
+}
+
+
+.footer.col-12 {
+    background-color:purple;
+    text-align:center;
+}
+
+

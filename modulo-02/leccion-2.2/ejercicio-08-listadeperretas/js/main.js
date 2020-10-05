@@ -14,4 +14,5 @@ perreteslist.innerHTML=
 `<li>${firstDogName}<img src=${firstDogName}></li>
 <li>${secondDogName}<img src=${secondDogImage}></li>
 <li>${thirdDogName}<img src=${thirdDogImage}></li>
-<li>Hola mundo${firstDogName}</li>`;
+<li>Hola mundo ${firstDogName} </li>`;
+

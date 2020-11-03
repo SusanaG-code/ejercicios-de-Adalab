@@ -11,18 +11,19 @@ const tasks = [
 ];
 
 const tareas = document.querySelector('.js-tasks');
-let i = 0;
+
 for (let i = 0; i < tasks.length; i++) {
-    tareas.innerHTML += `<li>${tasks[i].name}</li>`;
-    console.log(tasks[i].completed === false);
 
-
+    let classLi = '';
     if (tasks[i].completed === true) {
-        tareas.classList.add('complete-task');
+        classLi = 'complete-task';
     }
-    // if (completeTasks === false) {
-    //     tareas.classList.add('incomplete');
-    // }
+    if (tasks[i].completed === false) {
+        classLi = '';
+    }
+
+    tareas.innerHTML += `<li class = "${classLi}">${tasks[i].name}</li>`;
+    console.log(tasks[i].completed === false);
 
 }
 

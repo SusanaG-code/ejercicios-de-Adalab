@@ -1,0 +1,12 @@
+.blue {
+  width: 50%;
+  height: 200px;
+  border: solid 4px black;
+  background-color: lightblue;
+}
+
+.red {
+  background-color: red;
+  width: 50%;
+  height: 200px;
+}

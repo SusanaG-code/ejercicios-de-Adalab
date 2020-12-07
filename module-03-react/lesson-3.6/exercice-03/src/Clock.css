@@ -1,0 +1,11 @@
+.clock {
+  width: 50%;
+  height: 100px;
+  border: solid 5px black;
+}
+
+.red {
+  width: 50%;
+  height: 100px;
+  border: solid 5px red;
+}
